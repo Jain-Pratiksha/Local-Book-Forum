@@ -1,0 +1,80 @@
+*{
+	padding: 2px;
+	margin: 0;
+}
+#searchbar{ 
+	/*margin-left: 15%;*/
+	margin: 5% 10% 0% 13%; 
+	padding:15px; 
+	border-radius: 10px; 
+} 
+
+input[type=text] { 
+	width: 30%; 
+	-webkit-transition: width 0.15s ease-in-out; 
+	transition: width 0.15s ease-in-out; 
+} 
+
+/* When the input field gets focus, 
+		change its width to 100% */
+input[type=text]:focus { 
+	width: 70%; 
+} 
+
+#list{ 
+	font-size: 1.5em; 
+	/*margin-left: 90px; */
+} 
+
+/*.card{ 
+display: list-item;	 
+}*/ 
+
+img{
+	width: 50%;
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  /*margin-top: 20%;*/
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 35px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+	/*margin: 0 -5px;*/
+	padding: 10px;
+	margin: 0% 10% 5% 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 80%;
+    display: block;
+    /*margin-bottom: 20px;*/
+  }
+}
+button{
+	background-color: black;
+	border-radius: 12px;
+	font-family: "cursive"; 
+	width: 50%;
+}
+
