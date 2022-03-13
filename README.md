@@ -8,4 +8,4 @@ A website created using HTML, CSS, Javascript, PHP, MySql wherein it is an onlin
 5. Create a table name 'books' under the same database
 6. Create coloums like - images, name, address and contact (as in cards.php)
 7. Run the localhost/filename in the browser.
-8. Make changes and enjoy devloping!
+8. Make changes and enjoy developing!
