@@ -1,6 +1,6 @@
 # Local-Book-Forum
 A website created using HTML, CSS, Javascript, PHP, MySql wherein it is an online book store where a local stall books can also be sold.
-#Steps to run the project
+## Steps to run the project
 1. Clone this repository.
 2. Turn on the apache and mysql in xampp
 3. Place this respository folder and files in xampp folder
